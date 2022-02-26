@@ -48,13 +48,13 @@ dctMouseBug={'mousebug-mousebug-Picotazo':'3','mousebug-mousebug-Embestida':'2',
 'mousebug-aquaarder-Picotazo':'3','mousebug-aquaarder-Embestida':'2',
 'mousebug-aquaarder-Cabezazo':'2','mousebug-aquaarder-Esporas':'0',
 'mousebug-splant-Picotazo':'5','mousebug-splant-Embestida':'0',
-'mousebug-splant-Cabezazo':'0','mousebug-splant-Esporas':'0',
+'mousebug-splant-Cabezazo':'2','mousebug-splant-Esporas':'0',
 'mousebug-rockdog-Picotazo':'5','mousebug-rockdog-Embestida':'0',
-'mousebug-rockdog-Cabezazo':'0','mousebug-rockdog-Esporas':'0',
+'mousebug-rockdog-Cabezazo':'2','mousebug-rockdog-Esporas':'0',
 'mousebug-electder-Picotazo':'2','mousebug-electder-Embestida':'0',
-'mousebug-electder-Cabezazo':'0','mousebug-electder-Esporas':'0',
+'mousebug-electder-Cabezazo':'2','mousebug-electder-Esporas':'0',
 'mousebug-firesor-Picotazo':'2','mousebug-firesor-Embestida':'0',
-'mousebug-firesor-Cabezazo':'0','mousebug-firesor-Esporas':'0'
+'mousebug-firesor-Cabezazo':'2','mousebug-firesor-Esporas':'0'
 }
 
 dctMouseBugWithPower={'mousebug-mousebug-Picotazo':'5','mousebug-aquaarder-Picotazo':'5'
@@ -65,8 +65,10 @@ dctElectderWithPower ={'electder-firesor-trueno':'5','electder-aquaarder-trueno'
 'electder-rockdog-trueno':'4'}
 
 dctFiresorWithPower ={'firesor-aquaarder-Llamarada':'4','firesor-electder-Llamarada':'5','firesor-splant-Llamarada':'7','firesor-rockdog-Llamarada':'4'}
-dctRockDogWithPower={}
-dctSplantWithPower = {'splant-aquaarder-HojaNavaja':'5'}
+dctRockDogWithPower={'rockdog-aquaarder-RocaAfilado':'5','rockdog-aquaarder-RocaAfilado':'4','rockdog-electder-RocaAfilado':'7','rockdog-firesor-RocaAfilado':'7',
+'rockdog-mousebug-RocaAfilado':'5', 'rockdog-splant-RocaAfilado':'4','rockdog-rockdog-RocaAfilado':'5'}
+dctSplantWithPower = {'splant-aquaarder-HojaNavaja':'5','splant-electder-HojaNavaja':'7', 'splant-firesor-HojaNavaja':'4','splant-mousebug-HojaNavaja':4,
+'splant-splant-HojaNavaja':'5','splant-rockdog-HojaNavaja':'7'}
 
 dctElectder={'electder-aquaarder-trueno':'5','electder-mousebug-trueno':'3','electder-aquaarder-ColaFerrea':'2','electder-mousebug-ColaFerrea':'2',
 'electder-aquaarder-Cabezazo':'2','electder-mousebug-Cabezazo':'2','electder-firesor-trueno':'5','electder-rockdog-trueno':'5',
@@ -93,11 +95,11 @@ dctFiresor={'firesor-aquaarder-llamarada':'5','firesor-mousebug-llamarada':'3','
 dctSplant={'splant-aquaarder-HojaNavaja':'5','splant-mousebug-HojaNavaja':'3','splant-aquaarder-mordisco':'2','splant-mousebug-mordisco':'2',
 'splant-aquaarder-Cabezazo':'2','splant-mousebug-Cabezazo':'2','splant-firesor-HojaNavaja':'5','splant-rockdog-HojaNavaja':'5',
 'splant-firesor-mordisco':'0','splant-firesor-Cabezazo':'0','splant-firesor-Lluvia':'0','splant-rockdog-mordisco':'0',
-'splant-rockdog-Cabezazo':'0','splant-rockdog-Lluvia':'0',
+'splant-rockdog-Cabezazo':'2','splant-rockdog-Lluvia':'0',
 'splant-electder-HojaNavaja':'2','splant-electder-mordisco':'0','splant-electder-Cabezazo':'2','splant-electder-Lluvia':'0',
-'splant-splant-HojaNavaja':'2','splant-splant-mordisco':'0','splant-splant-Cabezazo':'0','splant-splant-Lluvia':'0','splant-mousebug-embestida':'3'
+'splant-splant-HojaNavaja':'3','splant-splant-mordisco':'0','splant-splant-Cabezazo':'0','splant-splant-Lluvia':'0','splant-mousebug-embestida':'3'
 ,'splant-mousebug-Mordisco':'2','splant-aquaarder-Mordisco':'2','splant-aquaarder-Embestida':'2','splant-electder-Mordisco':'2','splant-firesor-Cabezazo':'2',
-'splant-firesor-Mordisco':'2'}
+'splant-firesor-Mordisco':'2','splant-splant-Mordisco':'3','splant-splant-Mordisco':'2','splant-rockdog-Mordisco':'5'}
 
 
 dctRockDog={'rockdog-aquaarder-HojaNavaja':'5','rockdog-mousebug-HojaNavaja':'3','rockdog-aquaarder-mordisco':'2','rockdog-mousebug-mordisco':'2',
@@ -109,7 +111,8 @@ dctRockDog={'rockdog-aquaarder-HojaNavaja':'5','rockdog-mousebug-HojaNavaja':'3'
 ,'rockdog-mousebug-Mordisco':'2','rockdog-aquaarder-Mordisco':'2','rockdog-aquaarder-HojaNavaja':'2','rockdog-aquaarder-Embestida':'2',
 'rockdog-aquaarder-RocaAfilado':'2','rockdog-aquaarder-Velocidad':'2','rockdog-aquaarder-ColaFerrea':'2','rockdog-electder-RocaAfilado':'5',
 'rockdog-electder-Velocidad':'2','rockdog-electder-ColaFerrea':'2','rockdog-firesor-RocaAfilado':'3','rockdog-firesor-Velocidad':'2','rockdog-firesor-ColaFerrea':'2',
-'rockdog-mousebug-RocaAfilado':'3','rockdog-mousebug-Velocidad':'2','rockdog-mousebug-ColaFerrea':'2'}
+'rockdog-mousebug-RocaAfilado':'3','rockdog-mousebug-Velocidad':'2','rockdog-mousebug-ColaFerrea':'2','rockdog-splant-RocaAfilado':'2','rockdog-splant-Velocidad':'2','rockdog-splant-ColaFerrea':'2',
+'rockdog-rockdog-RocaAfilado':'3','rockdog-rockdog-Velocidad':'2','rockdog-rockdog-ColaFerrea':'2'}
 
 
 
@@ -326,7 +329,7 @@ def BattleField():
            actions = ['HojaNavaja','Mordisco','Cabezazo','RayoSolar','splant.png']
            dc = dctSplant                        
         if user_demon=='rockdog':
-           actions = ['RocaAfilado','Velocidad','ColaFerrea','CampoRocoso','splant.png'] 
+           actions = ['RocaAfilado','Velocidad','ColaFerrea','CampoRocoso','rockdog.png'] 
            dc = dctRockDog
 
 
@@ -576,6 +579,8 @@ def hitButton04():
         dc =dctFiresorWithPower
     if user_demon =='splant':
         dc=dctSplantWithPower
+    if user_demon =='rockdog':
+        dc=dctRockDogWithPower
 
 
 
@@ -811,13 +816,6 @@ lbluser.place(x=10,y=350)
 
 btnIniciar = Button(root,text='        Start                  ',bg='blue',fg='white',command=BattleField)
 btnIniciar.place(x=250,y=350)
-
-
-
-
-
-
-    
 
 
 root.mainloop()
